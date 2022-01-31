@@ -4,7 +4,7 @@
   tasks: 
     - name: i want to install webserever
       apt: 
-        name: apache2
+        name: "{{myubuntuserver}}"
         state: present
     - name: i want to install tree 
       apt: 
